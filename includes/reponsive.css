@@ -1,0 +1,795 @@
+/*######################################
+############# Reponsive ################
+######################################*/
+@media screen and (max-width: 420px) {
+    .contenedor {
+        width: 90%;
+    }
+    .container { 
+        width: 90%;
+        margin: auto;
+    }
+    body {
+        width: 100%;    
+    }
+    .Texto-cabecera .nav-main {
+        transition: left .5s ease-in-out;
+        display: block;
+        text-align: justify;
+        position: absolute;
+        left: -200px;
+        background: #424242af;
+        height: 70%;
+        font-size: 13px;
+        top: 0px;
+        padding: 5px;
+    }
+    .Texto-cabecera .nav-main.show {
+        transition: left .5s ease-in-out;
+        display: block;
+        text-align: justify;
+        position: absolute;
+        left: -1px;
+        background: #424242af;
+        height: 70%;
+        font-size: 13px;
+        top: 0px;
+        padding: 5px;
+    }
+    .nav-brand {
+        height: 5px;
+        display: block;
+    }
+    .nav-main ul {
+        display: block;
+    
+    }
+/* #################################### */
+/* ############# SLIDE BARS ########### */
+/* #################################### */
+    .btn-slide-bars {
+        position: absolute;
+        cursor: pointer;
+        top: 10px;
+        right: 5px;
+        padding: 20px;
+        z-index: 2;
+        display: block;
+        color: white;
+        font-size: 25px;
+    }
+/* ##################################
+############## Img Cabecera #########
+################################### */
+    .Texto-cabecera .img-header img {
+    width: 50%;
+    }
+    header {
+       max-width: 100%;
+
+    }
+    body .head-img {
+        width: 100%;
+        height: 300px;
+        background-size: 420px;
+        padding: 5px 0px;
+    }
+    body .Texto-cabecera img {
+        width: 100%;
+    }
+    /* ###################################### */
+    /* ############### HEADER ############### */
+    /* ###################################### */
+    header .wave {
+        max-width: 100%;
+        height: 5px;
+    }
+    header form {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    header .barra-busqueda {
+        width: 80%;
+        height: 30px;
+        line-height: 40px;
+        background: #fff;
+        padding: 0 10px;
+        border-radius: 100px;
+        border: none;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    header .categorias {
+        padding: 10px;
+    }
+    header .categorias a {
+        margin: 5px 10px;
+        font-size: 10px;
+    }
+    header .categorias a.activo {
+        color: black;
+    }
+    /*###########################*/
+    /*######### PANEL C ########*/
+    /*###########################*/
+    body .C-panel {
+        font-size: 35px;
+        margin-bottom: 10px;
+        max-width: 100%;
+    }
+    body .C-panel a {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    /* ################################## */
+    /* ########## GRID ################## */
+    /* ################################## */
+    .grid {
+        position: relative;
+        width: 100%;
+        opacity: 0;
+        transition: opacity 0.5s linear 1s;
+        }
+    .grid .item {
+        margin: 5px;
+        width: calc(33.3333% - 10px);
+    }
+    .grid .item-contenido .div-name {
+        color: white;
+        justify-content: center;
+        text-align: center;
+        font-size: 10px;
+        border-radius: 5px;
+        position: absolute;
+        bottom: 0px; 
+    }
+    .grid .item img {
+        width: 100%;
+        border-radius: 5px;
+    }
+    .grid .precio {
+        font-size: 15px;
+        left:5px;
+        top: 5px;
+        padding: 2px;
+        border-radius: 2px;
+        margin: 2px;
+    }
+    .grid .item-contenido .btn-detalles-push {
+        right: 5px;
+        top: 4px;
+        padding: 2px;
+        display: none;
+
+    }
+    .grid .item-contenido .btn-detalles-push i {
+        font-size: 16px;
+    }
+    /* ############################## */
+    /* ########OVERLAY ############# */
+    /* ############################## */
+
+    .overlay {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: rgba(0, 0, 0, .9);
+        width: 100%;
+        height: 100vh;
+        display: none;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        transition: transform 0.5s;
+    }
+    .overlay.act {
+        display: flex;
+    }
+    .overlay .descripcion {
+        display: block;
+        background: #fff;
+        padding: 5px;
+        text-align: center;
+        border-radius: 10px;
+        margin-top: 2px;
+        font-size: 15px;
+        max-width: 100%;
+    }
+    .overlay .contenedor-img .img {
+        max-width: 250px;
+    }
+    /* #################################### */
+    /* ########## REDES SOCIALES ########## */
+    /* #################################### */
+    footer .redes-sociales {
+        padding: 10px;
+        max-width: 100%;
+    }
+    footer .redes-sociales a i {
+        font-size: 15px;
+        line-height: 30px;
+    }
+    footer .redes-sociales {
+        padding: 10px;
+    }
+    footer .redes-sociales a {
+        width: 30px;
+        height: 30px;
+        margin: 10px;
+    }
+    footer .redes-sociales .whatsapp i {
+    font-size: 36px;
+    }
+    footer .creado-por {
+        margin-bottom: 10px;
+        font-size: 10px;
+        justify-content: center;
+        text-align: center;
+    }
+    /* ############################## */
+    /* ######### ABOUT US ########### */
+    /* ############################## */
+    .contenedor-sobre-nosotros {
+    display: block;
+    justify-content: center;
+    text-align: center;
+
+}
+    .img-sobre-nosotros {
+        width: 78%;
+        height: 30%;
+        padding-right: 25px;
+        justify-content: center;
+        align-items: center;
+    }
+    .contenedor-textos h3{
+        margin-bottom: 15px;
+        font-size: 20px;
+    }
+    .sobre-nosotros .contenedor-textos{
+        width: 90%;
+        justify-content: center;
+        text-align: center;
+    }
+    .contenedor-textos p{
+        font-weight: 400;
+        text-align: left;
+        font-size: 20px;
+        justify-content: center;
+    }
+    
+}
+/* ############################################################## */
+/* ########################## 600PX ############################# */
+/* ############################################################## */
+
+@media screen and (max-width: 600px) {
+    .contenedor {
+        width: 85%;
+    }
+    .container { 
+        width: 90%;
+        margin: auto;
+    }
+    body {
+        width: 100%;    
+    }
+    .Texto-cabecera .nav-main {
+        transition: left .5s ease-in-out;
+        display: block;
+        text-align: justify;
+        position: absolute;
+        left: -200px;
+        background: #747474af;
+        height: 70%;
+        font-size: 17px;
+        top: 0px;
+        padding: 5px;
+    }
+    .Texto-cabecera .nav-main.show {
+        transition: left .5s ease-in-out;
+        display: block;
+        text-align: justify;
+        position: absolute;
+        left: -1px;
+        background: #8a8a8aaf;
+        height: 70%;
+        font-size: 17px;
+        top: 0px;
+        padding: 5px;
+    }
+    .nav-brand {
+        height: 5px;
+        display: block;
+    }
+    .nav-main ul {
+        display: block;
+    
+    }
+/* #################################### */
+/* ############# SLIDE BARS ########### */
+/* #################################### */
+    .btn-slide-bars {
+        position: absolute;
+        cursor: pointer;
+        top: 10px;
+        right: 5px;
+        padding: 20px;
+        z-index: 2;
+        display: block;
+        color: white;
+        font-size: 30px;
+    }
+/* ##################################
+############## Img Cabecera #########
+################################### */
+    .Texto-cabecera .img-header img {
+    width: 40%;
+    }
+    header {
+       max-width: 100%;
+
+    }
+    body .head-img {
+        width: 100%;
+        height: 300px;
+        background-size: 600px;
+        padding: 5px 0px;
+    }
+    body .Texto-cabecera img {
+        width: 100%;
+    }
+    /* ###################################### */
+    /* ############### HEADER ############### */
+    /* ###################################### */
+    header .wave {
+        max-width: 100%;
+        height: 5px;
+    }
+    header form {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    header .barra-busqueda {
+        width: 90%;
+        height: 40px;
+        line-height: 40px;
+        background: #fff;
+        padding: 0 10px;
+        border-radius: 100px;
+        border: none;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    header .categorias {
+        padding: 10px;
+    }
+    header .categorias a {
+        margin: 5px 10px;
+        font-size: 15px;
+    }
+    header .categorias a.activo {
+        color: black;
+    }
+    /*###########################*/
+    /*######### PANEL C ########*/
+    /*###########################*/
+    body .C-panel {
+        font-size: 35px;
+        margin-bottom: 10px;
+        max-width: 100%;
+    }
+    body .C-panel a {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    /* ################################## */
+    /* ########## GRID ################## */
+    /* ################################## */
+    .grid {
+        position: relative;
+        width: 100%;
+        opacity: 0;
+        transition: opacity 0.5s linear 1s;
+        }
+    .grid .item {
+        margin: 7px;
+        width: calc(33.33333% - 14px);
+    }
+    .grid .item-contenido .div-name {
+        color: white;
+        justify-content: center;
+        text-align: center;
+        font-size: 14px;
+        border-radius: 5px;
+        position: absolute;
+        bottom: 0px; 
+    }
+    .grid .item img {
+        width: 100%;
+        border-radius: 5px;
+    }
+    .grid .precio {
+        font-size: 18px;
+        left:5px;
+        top: 5px;
+        padding: 2px;
+        border-radius: 2px;
+        margin: 2px;
+    }
+    .grid .item-contenido .btn-detalles-push {
+        right: 5px;
+        top: 4px;
+        padding: 4px;
+        display: none;
+
+    }
+    .grid .item-contenido .btn-detalles-push i {
+        font-size: 18px;
+    }
+    /* ############################## */
+    /* ########OVERLAY ############# */
+    /* ############################## */
+
+    .overlay {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: rgba(0, 0, 0, .9);
+        width: 100%;
+        height: 100vh;
+        display: none;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        transition: transform 0.5s;
+    }
+    .overlay.act {
+        display: flex;
+    }
+    .overlay .descripcion {
+        display: block;
+        background: #fff;
+        padding: 5px;
+        text-align: center;
+        border-radius: 10px;
+        margin-top: 2px;
+        font-size: 15px;
+        max-width: 100%;
+    }
+    .overlay .contenedor-img .img {
+        max-width: 250px;
+    }
+        /* #################################### */
+    /* ########## REDES SOCIALES ########## */
+    /* #################################### */
+    footer .redes-sociales {
+        padding: 10px;
+        max-width: 100%;
+    }
+    footer .redes-sociales a i {
+        font-size: 20px;
+        line-height: 40px;
+    }
+    footer .redes-sociales {
+        padding: 20px;
+    }
+    footer .redes-sociales a {
+        width: 40px;
+        height: 40px;
+        margin: 10px;
+    }
+    footer .redes-sociales .whatsapp i {
+    font-size: 49px;
+    }
+    footer .creado-por {
+        margin-bottom: 10px;
+        font-size: 10px;
+        justify-content: center;
+        text-align: center;
+    }
+    /* ############################## */
+    /* ######### ABOUT US ########### */
+    /* ############################## */
+    .contenedor-sobre-nosotros {
+    display: block;
+    justify-content: center;
+    text-align: center;
+
+}
+    .img-sobre-nosotros {
+        width: 78%;
+        height: 30%;
+        padding-right: 25px;
+        justify-content: center;
+        align-items: center;
+    }
+    .contenedor-textos h3{
+        margin-bottom: 15px;
+        font-size: 20px;
+    }
+    .sobre-nosotros .contenedor-textos{
+        width: 90%;
+        justify-content: center;
+        text-align: center;
+    }
+    .contenedor-textos p{
+        font-weight: 400;
+        text-align: left;
+        font-size: 20px;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 760px) {
+
+    .contenedor {
+        width: 90%;
+    }
+    .container { 
+        width: 90%;
+        margin: auto;
+    }
+    body {
+        width: 100%;    
+    }
+    .Texto-cabecera .nav-main {
+        transition: left .5s ease-in-out;
+        display: block;
+        text-align: justify;
+        position: absolute;
+        left: -200px;
+        background: #747474af;
+        height: 70%;
+        font-size: 17px;
+        top: 0px;
+        padding: 5px;
+    }
+    .Texto-cabecera .nav-main.show {
+        transition: left .5s ease-in-out;
+        display: block;
+        text-align: justify;
+        position: absolute;
+        left: -1px;
+        background: #8a8a8aaf;
+        height: 70%;
+        font-size: 17px;
+        top: 0px;
+        padding: 5px;
+    }
+    .nav-brand {
+        height: 10px;
+        display: block;
+    }
+    .nav-main ul {
+        display: block;
+    
+    }
+/* #################################### */
+/* ############# SLIDE BARS ########### */
+/* #################################### */
+    .btn-slide-bars {
+        position: absolute;
+        cursor: pointer;
+        top: 10px;
+        right: 5px;
+        padding: 20px;
+        z-index: 2;
+        display: block;
+        color: white;
+        font-size: 30px;
+    }
+/* ##################################
+############## Img Cabecera #########
+################################### */
+    .Texto-cabecera .img-header img {
+    width: 40%;
+    }
+    header {
+       max-width: 100%;
+
+    }
+    body .head-img {
+        width: 100%;
+        height: 300px;
+        background-size: 760px;
+        padding: 5px 0px;
+    }
+    body .Texto-cabecera img {
+        width: 100%;
+    }
+    /* ###################################### */
+    /* ############### HEADER ############### */
+    /* ###################################### */
+    header .wave {
+        max-width: 100%;
+        height: 5px;
+    }
+    header form {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    header .barra-busqueda {
+        width: 90%;
+        height: 40px;
+        line-height: 40px;
+        background: #fff;
+        padding: 0 10px;
+        border-radius: 100px;
+        border: none;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    header .categorias {
+        padding: 10px;
+    }
+    header .categorias a {
+        margin: 5px 10px;
+        font-size: 20px;
+    }
+    header .categorias a.activo {
+        color: black;
+    }
+    /*###########################*/
+    /*######### PANEL C ########*/
+    /*###########################*/
+    body .C-panel {
+        font-size: 35px;
+        margin-bottom: 10px;
+        max-width: 100%;
+    }
+    body .C-panel a {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    /* ################################## */
+    /* ########## GRID ################## */
+    /* ################################## */
+    .grid {
+        position: relative;
+        width: 100%;
+        opacity: 0;
+        transition: opacity 0.5s linear 1s;
+        }
+    .grid .item {
+        margin: 10px;
+        width: calc(33.33333% - 20px);
+    }
+    .grid .item-contenido .div-name {
+        color: white;
+        justify-content: center;
+        text-align: center;
+        font-size: 14px;
+        border-radius: 5px;
+        position: absolute;
+        bottom: 0px; 
+    }
+    .grid .item img {
+        width: 100%;
+        border-radius: 5px;
+    }
+    .grid .precio {
+        font-size: 18px;
+        left:5px;
+        top: 5px;
+        padding: 2px;
+        border-radius: 2px;
+        margin: 2px;
+    }
+    .grid .item-contenido .btn-detalles-push {
+        right: 5px;
+        top: 4px;
+        padding: 4px;
+        display: none;
+
+    }
+    .grid .item-contenido .btn-detalles-push i {
+        font-size: 18px;
+    }
+    /* ############################## */
+    /* ########OVERLAY ############# */
+    /* ############################## */
+
+    .overlay {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: rgba(0, 0, 0, .9);
+        width: 100%;
+        height: 100vh;
+        display: none;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        transition: transform 0.5s;
+    }
+    .overlay.act {
+        display: flex;
+    }
+    .overlay .descripcion {
+        display: block;
+        background: #fff;
+        padding: 5px;
+        text-align: center;
+        border-radius: 10px;
+        margin-top: 2px;
+        font-size: 15px;
+        max-width: 100%;
+    }
+    .overlay .contenedor-img .img {
+        max-width: 250px;
+    }
+        /* #################################### */
+    /* ########## REDES SOCIALES ########## */
+    /* #################################### */
+    footer .redes-sociales {
+        padding: 10px;
+        max-width: 100%;
+    }
+    footer .redes-sociales a i {
+        font-size: 30px;
+        line-height: 50px;
+    }
+    footer .redes-sociales {
+        padding: 10px;
+    }
+    footer .redes-sociales a {
+        width: 50px;
+        height: 50px;
+        margin: 20px;
+    }
+    footer .redes-sociales .whatsapp i {
+    font-size: 69px;
+    }
+    footer .creado-por {
+        margin-bottom: 10px;
+        font-size: 10px;
+        justify-content: center;
+        text-align: center;
+    }
+    /* ############################## */
+    /* ######### ABOUT US ########### */
+    /* ############################## */
+    .contenedor-sobre-nosotros {
+    display: block;
+    justify-content: center;
+    text-align: center;
+
+}
+    .img-sobre-nosotros {
+        width: 78%;
+        height: 50%;
+        padding-right: 25px;
+        justify-content: center;
+        align-items: center;
+    }
+    .contenedor-textos h3{
+        margin-bottom: 15px;
+        font-size: 20px;
+    }
+    .sobre-nosotros .contenedor-textos{
+        width: 90%;
+        justify-content: center;
+        text-align: center;
+    }
+    .contenedor-textos p{
+        font-weight: 400;
+        text-align: left;
+        font-size: 20px;
+        justify-content: center;
+    }
+}
